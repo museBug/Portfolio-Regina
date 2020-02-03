@@ -1,6 +1,61 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', 'sans-serif';
+    ;
+}
+
+.navbar {
+    padding: 1rem;
+}
+
+.nav-link{
+    font-size: 0.7cm !important;
+}
+
+.navbar-nav li {
+padding-right: 20px;
+}
+
 .navbar-brand {
-font-family: 'Marck Script', cursive;
-font-family: 'Cinzel Decorative', cursive;
-font-family: 'Rochester', cursive;
-font-size: 30px;
+font-size: 40px;
+}
+
+.display-4{
+font-size: 300%;
+margin-top: 10px;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Calibry';
+}
+
+.fa-code {
+    color: red;
+    font-size: 40px;
+}
+
+.fa-bold {
+    color: purple;
+    font-size: 40px;
+}
+
+.fa-css3 {
+    color: blue;
+    font-size: 40px;
+}
+
+.card-header {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.btn {
+    font-size: 30px;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 2rem;
 }
