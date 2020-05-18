@@ -2,7 +2,6 @@ html, body {
     height: 100%;
     width: 100%;
     font-family: 'Poppins', 'sans-serif';
-    ;
 }
 
 .navbar {
@@ -14,16 +13,22 @@ html, body {
 }
 
 .navbar-nav li {
-padding-right: 20px;
+    padding-right: 20px;
 }
 
 .navbar-brand {
-font-size: 40px;
+    font-size: 40px;
+    font-style: white;
 }
 
-.display-4{
-font-size: 300%;
-margin-top: 10px;
+.display-4 { 
+    font-size: 300%;
+    margin-top: 10px;
+}
+
+h5 {
+    background-color: rgb(138, 177, 214);
+    text-align: center;
 }
 
 p {
@@ -58,4 +63,5 @@ p {
 footer {
     margin-top: 40px;
     padding: 2rem;
+    background-color: rgb(96, 146, 192);
 }

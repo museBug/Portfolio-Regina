@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-xl navbar-light sticky-top" style="background-color: rgb(96, 146, 192)">
@@ -30,41 +30,59 @@
         </div>
         </nav>
 <!--Portfolio info-->
-    <div class="container-fluid padding">
+<div class="container bg-white shadow-sm my-4">
     <div class="row">
-        <div class="col-12">
-            <h1 class="display-4">Portfolio</h1>
-            <hr>
+        <div class="col my-3">
+            <div class="row  mx-2">
+                <div class="card-deck p-2">
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/project1.png" alt="Travel App">
+                      <div class="card-body">
+                        <h5 class="card-title">Traveler</h5>
+                        <p class="card-text">A project using the Open Weather API, Triposo API, and the Bootstrap framework.</p>
+                        <p><a href="https://github.com/nrlong/Project1Test">Github</a></p>
+                        <p><a href="https://nrlong.github.io/Project1Test/">Deployed</a></p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/weather.png" alt="Weather Dashboard">
+                      <div class="card-body">
+                        <h5 class="card-title">Weather Dashboard</h5>
+                        <p class="card-text">A project utilizing Open Weather API to display information on One Day & Five Day forecasts as well as the UV Index.</p>
+                        <p><a href="https://github.com/Antidetka/Weather-Dashboard">Github</a></p>
+                        <p><a href="https://antidetka.github.io/Weather-Dashboard/">Deployed</a></p>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/hospitality.png" alt="Hospitality App">
+                        <div class="card-body">
+                          <h5 class="card-title">Hospitality app</h5>
+                          <p class="card-text">Medical Application designed using MySQL, Express, and jQuery deployed on Heroku</p>
+                          <p><a href="https://github.com/dsarra1018/Project2">Github</a></p>
+                          <p><a href="https://hospitality-1.herokuapp.com/">Deployed</a></p>
+                      </div>
+                      </div>
+                      <div class="card">
+                        <img class="card-img-top" src="assets/images/burger.png" alt="Burger App">
+                        <div class="card-body">
+                          <h5 class="card-title">Burger App</h5>
+                          <p class="card-text">Utilizes Express, Handlebars, Node, and MySQL</p>
+                          <p><a href="https://github.com/Antidetka/Burger">Github</a></p>
+                          <p><a href="https://fast-everglades-77602.herokuapp.com">Deployed</a></p>
+                      </div>
+                      </div>
+                  </div>
+            </div>
         </div>
     </div>
-    </div>
-    <div class="container-fluid padding">
-        <div class="row padding">
-            <div class="col-md-4">
-                <div class="card"> 
-                    <img class="card-img-top" src="images/website1.jpg" alt="image of website">
-                    <h4 class="card-header">Project 1</h4>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card" style="margin-top: 30px">
-                    <img class="card-img" src="images/skills.jpg" alt="image of skills">
-                    <h4 class="card-header">Project 2</h4>
-                </div>
-            </div>
-         </div>   
-    </div>
-    <!--Footer-->
-    <footer style="background-color: rgb(96, 146, 192)">
-        <div class="container-fluid">
-            <div class="row text-center">
-                <div class="col-12">
-                 <h5>&copy;</h5>
-                </div>
-            </div>
-        </div>
-    </footer>
+</div>
 
+<!-- footer -->
+<footer class="footer mt-3 mb-n1 py-2 shadow-sm fixed-bottom" >
+    <div class="container text-center">
+        <span class="">Copyright 2020</span>
+    </div>
+</footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
